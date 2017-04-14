@@ -1,0 +1,77 @@
+{
+  "extends": "tslint-eslint-rules",
+  "rules": {
+    "adjacent-overload-signatures": true,
+    "no-bitwise": true,
+    "no-conditional-assignment": true,
+    "no-constant-condition": true,
+    "no-control-regex": true,
+    "no-debugger": true,
+    "no-duplicate-case": true,
+    "no-empty": true,
+    "no-empty-character-class": true,
+    "no-ex-assign": true,
+    "no-extra-boolean-cast": true,
+    "no-extra-semi": true,
+    "no-inner-declarations": [
+      true,
+      "functions"
+    ],
+    "no-invalid-regexp": true,
+    "no-irregular-whitespace": true,
+    "no-regex-spaces": true,
+    "no-sparse-arrays": true,
+    "no-unexpected-multiline": true,
+    "no-unsafe-finally": true,
+    "use-isnan": true,
+    "valid-typeof": true,
+    "no-switch-case-fall-through": true,
+    "indent": [
+      true,
+      "spaces"
+    ],
+    "no-console": [
+      true,
+      "debug",
+      "info",
+      "time",
+      "timeEnd",
+      "trace"
+    ],
+    "no-var-requires": false,
+    "quotemark": [
+      true,
+      "single",
+      "avoid-escape"
+    ],
+    "semicolon": true,
+    "object-literal-sort-keys": false,
+    "trailing-comma": false,
+    "ordered-imports": false,
+    "member-access": false,
+    "one-variable-per-declaration": true,
+    "object-curly-spacing": true,
+    "array-bracket-spacing": [
+      "error",
+      "never"
+    ],
+    "space-in-parens": [
+      "error",
+      "never"
+    ],
+    "brace-style": [
+      "error",
+      "1tbs",
+      {
+        "allowSingleLine": false
+      }
+    ],
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "check-format",
+      "allow-leading-underscore",
+      "allow-pascal-case"
+    ]
+  }
+}
