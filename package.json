@@ -16,7 +16,7 @@
   },
   "license": "ISC",
   "bin": {
-    "tsconfig": "./bin/tsconfig.json",
+    "tsconfig.json": "./bin/tsconfig.json",
     "tslint.json": "./bin/tslint.json"
   },
   "scripts": {
