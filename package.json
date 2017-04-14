@@ -1,12 +1,11 @@
 {
-  "name": "commons-config-esmiley",
+  "name": "commons-config-node",
   "version": "0.1.0",
   "description": "A repository that contains the configuration files that are common accross most Node.js projects - both Feathers/Sails services and in-house modules.",
   "main": "index.js",
   "keywords": [
     "common",
     "commons",
-    "esmiley",
     "config",
     "conf",
     "configuration"
