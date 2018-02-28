@@ -1,7 +1,7 @@
 {
-  "name": "commons-config-node",
+  "name": "commons-node",
   "version": "0.1.0",
-  "description": "A repository that contains the configuration files that are common accross most Node.js projects - both Feathers/Sails services and in-house modules.",
+  "description": "A repository that contains the configuration files that are common accross most Node.js projects.",
   "main": "index.js",
   "keywords": [
     "common",
@@ -12,7 +12,7 @@
   ],
   "author": {
     "name": "Galin Kostov",
-    "email": "gako@esmiley.dk"
+    "email": "galioy1024@gmail.com"
   },
   "license": "ISC",
   "bin": {
