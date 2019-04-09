@@ -1,5 +1,6 @@
 {
   "extends": "tslint-eslint-rules",
+  "defaultSeverity": "warning",
   "rules": {
     "adjacent-overload-signatures": true,
     "no-bitwise": true,
@@ -8,7 +9,7 @@
     "no-control-regex": true,
     "no-debugger": true,
     "no-duplicate-case": true,
-    "no-empty": true,
+    "no-empty": false,
     "no-empty-character-class": true,
     "no-ex-assign": true,
     "no-extra-boolean-cast": true,
@@ -30,6 +31,13 @@
       true,
       "spaces"
     ],
+    "ter-indent": [
+      true,
+      2,
+      {
+        "SwitchCase": "1"
+      }
+    ],
     "no-console": [
       true,
       "debug",
@@ -39,6 +47,7 @@
       "trace"
     ],
     "no-var-requires": false,
+    "no-var-keyword": true,
     "quotemark": [
       true,
       "single",
