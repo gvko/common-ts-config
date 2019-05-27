@@ -1,7 +1,7 @@
 {
   "name": "commons-node",
   "version": "0.1.0",
-  "description": "A repository that contains the configuration files that are common accross most Node.js projects.",
+  "description": "A repository containing the TypeScript configuration files that are common across most of my Node.js projects.",
   "main": "index.js",
   "keywords": [
     "common",
@@ -10,16 +10,31 @@
     "conf",
     "configuration"
   ],
-  "author": {
-    "name": "Galin Kostov",
-    "email": "galioy1024@gmail.com"
-  },
-  "license": "ISC",
   "bin": {
     "tsconfig.json": "./bin/tsconfig.json",
     "tslint.json": "./bin/tslint.json"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  }
+  },
+  "devDependencies": {
+    "@types/node": "^12.0.2",
+    "tslint": "^4.5.1",
+    "tslint-eslint-rules": "^3.5.1",
+    "source-map-support": "^0.5.12",
+    "typescript": "^3.4.5"
+  },
+  "engines": {
+    "node": "~12.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gvko/commons-ts-config.git"
+  },
+  "author": "Galin Kostov <gvko@pm.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gvko/commons-ts-config/issues"
+  },
+  "homepage": "https://github.com/gvko/commons-ts-config#readme"
 }
