@@ -6,6 +6,8 @@
     "allowUnreachableCode": false,
     "declaration": true,
     "alwaysStrict": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
     "types": [
       "node"
     ],

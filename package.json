@@ -1,6 +1,6 @@
 {
-  "name": "commons-node",
-  "version": "0.1.0",
+  "name": "common-ts-config",
+  "version": "0.1.1",
   "description": "A repository containing the TypeScript configuration files that are common across most of my Node.js projects.",
   "main": "index.js",
   "keywords": [
@@ -21,7 +21,7 @@
     "tslint": "^4.5.1",
     "tslint-eslint-rules": "^3.5.1",
     "source-map-support": "^0.5.12",
-    "typescript": "^3.4.5"
+    "typescript": "^3.6.3"
   },
   "devDependencies": {
     "@types/node": "^12.0.2"
